@@ -1,0 +1,13 @@
+gemini
+npm
+npx
+# Ignore the master environment files containing private keys
+.env
+.env.local
+
+# Ignore compiled C++ binaries and build folders
+build/
+bin/
+.vcpkg-root/
+target/
+src-tauri/target/
